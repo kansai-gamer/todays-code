@@ -1,6 +1,6 @@
 <?php
 #改行は大事
-$array = array(2,6,3,10,4);
-echo max($array) . "\n";
-echo min($array) . "\n";
+$array = array(7,9,58,43,3);
+echo "最大値:" . max($array) . "\n";
+echo "最小値:" . min($array) . "\n";
 ?>
