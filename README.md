@@ -10,4 +10,4 @@
 
 + [0909](0909.md)
 ### 授業リポ
-+ [Python](Python)
++ [Python](https://github.com/kansai-gamer/Python)
