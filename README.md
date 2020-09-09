@@ -9,6 +9,6 @@
 
 ### オープンな自己紹介
 
-+ [0909](0909.md)
++ [here](Self-introduction.md)
 ### 授業リポ
 + [Python](https://github.com/kansai-gamer/Python)
