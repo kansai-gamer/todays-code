@@ -12,3 +12,4 @@
 + [here](Self-introduction.md)
 ### 授業リポ
 + [Python](https://github.com/kansai-gamer/Python)
++ [bash](https://github.com/kansai-gamer/bash)
