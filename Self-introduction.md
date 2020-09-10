@@ -35,5 +35,6 @@
 今はMONAとBTCを保有しています。
 
 <br>
+
 自分の[twitter](https://twitter.com/kansai_gamer)
 フォロワー0人なんで誰かフォローしてください。()
