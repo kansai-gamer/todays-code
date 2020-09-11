@@ -9,8 +9,9 @@
 + PHP
 + Python
 + Bash (スクリプト)
-+ HTML (予定)
-
++ HTML  
++ CSS  
++ Javascript(予定)  
 
 <br>
 
