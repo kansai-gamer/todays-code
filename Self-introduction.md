@@ -10,7 +10,8 @@
 + Python
 + Bash (スクリプト)
 + HTML  
-
++ CSS  
++Javascript(予定)  
 
 <br>
 
