@@ -9,5 +9,5 @@ for($i = 0; $i < count($nums); $i++){
         $max = $nums[$i];
     }
 }
-echo $max . "\n";
+echo "最大値" . $max . "\n";
 ?>
