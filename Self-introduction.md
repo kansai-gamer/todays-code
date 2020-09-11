@@ -11,7 +11,7 @@
 + Bash (スクリプト)
 + HTML  
 + CSS  
-+Javascript(予定)  
++ Javascript(予定)  
 
 <br>
 
