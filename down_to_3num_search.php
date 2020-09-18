@@ -1,4 +1,5 @@
 <?php
+echo "入力待機中:";
 $nums = array_map('intval', explode(',', trim(fgets(STDIN))));
 // メモ intval 数値データへ変換 explode 文字を分ける(今回はカンマ区切り)
 
