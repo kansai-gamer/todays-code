@@ -9,7 +9,6 @@ sort($duplicate_del);
 //数値順に並び替え
 
 echo $duplicate_del[2] . "\n";
-//出力
 
 // var_dump($duplicate_del);
 //デバッグ用
