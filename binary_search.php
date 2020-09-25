@@ -4,7 +4,7 @@ $hit = 11;
 sort($nums);
 #ここから工夫
 $cyuu = floor(count($nums) / 2);
-for($i = 0; $i < count($nums); $i++){
+for($i = 0; $i < $cyuu; $i++){
     if($nums[$cyuu] == $hit){
         echo "Found" . $cyuu;
     }elseif()
