@@ -1,8 +1,39 @@
-@import url(/sanitize.css);
+@import url(https://kansai-gamer.github.io/css/sanitize.css);
+
+header,
+footer {
+    height: 100px;
+    background: gray;
+    text-align: center;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 10px;
+}
 
 .container {
-    width: 800px;
+    width: 830px;
     margin: 0 auto;
+}
+
+.content {
+    text-align: center;
+}
+
+.content::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+p {
+    margin: 0;
 }
 
 .row1,
@@ -11,7 +42,28 @@
 .row4 {
     width: 200px;
     float: left;
+    margin: 0 5px;
 }
+
+.row1 {
+    margin-left: 0;
+}
+
+.row4 {
+    margin-right: 0;
+}
+
+.blue,
+.red,
+.green,
+.orange,
+.skyblue,
+.lime,
+.tomato,
+.gold {
+    margin-bottom: 10px;
+}
+
 
 .blue {
     height: 200px;
@@ -72,4 +124,21 @@
 .yellow {
     height: 200px;
     background-color: yellow;
+}
+
+@media only screen and (max-width: 829px) {
+    .row1,
+    .row2,
+    .row3,
+    .row4 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .row2,
+    .row3,
+    .row4 {
+        margin-top: 10px;
+    }
 }
