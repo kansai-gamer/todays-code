@@ -1,0 +1,75 @@
+@import url(/sanitize.css);
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+    width: 200px;
+    float: left;
+}
+
+.blue {
+    height: 200px;
+    background-color: blue;
+}
+
+.skyblue {
+    height: 400px;
+    background-color: skyblue;
+}
+
+.lightblue {
+    height: 100px;
+    background-color: lightblue;
+}
+
+.orange {
+    height: 100px;
+    background-color: orange;
+
+}
+
+.red {
+    height: 300px;
+    background-color: red;
+}
+
+.tomato {
+    height: 100px;
+    background-color: tomato;
+}
+
+.pink {
+    height: 300px;
+    background-color: pink;
+}
+
+.green {
+    height: 200px;
+    background-color: green;
+}
+
+.lime {
+    height: 300px;
+    background-color: lime;
+}
+
+.lightgreen {
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.gold {
+    height: 400px;
+    background-color: gold;
+}
+
+.yellow {
+    height: 200px;
+    background-color: yellow;
+}
