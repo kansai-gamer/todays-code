@@ -1,7 +1,9 @@
 <?php
-$str = trim(fgets(STDIN));
-$bunrui = explode(",", $str);
+$usertypestr = $_GET["usertypestr"];
+$bunrui = explode(",", $usertypestr);
 sort($bunrui);
 
-print_r($bunrui);
+for($i = 0; $i < count($bunrui); $i++){
+    echo $bunrui[$i] . "<br>";
+}
 ?>
