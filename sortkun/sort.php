@@ -1,7 +1,7 @@
 <?php
 $str = trim(fgets(STDIN));
-print_r(explode(",", $str));
-sort($str);
+$bunrui = explode(",", $str);
+sort($bunrui);
 
-print_r($str);
+print_r($bunrui);
 ?>
