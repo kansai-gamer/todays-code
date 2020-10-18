@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-18T16:04:09.642Z" agent="5.0 (X11)" etag="3ik37IouMRL-phXiTJo2" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-18T16:08:31.746Z" agent="5.0 (X11)" etag="IzXEEFNmk6Q2kCNLmDBs" version="13.8.0" type="github">
   <diagram id="zz4J_zeyeDPSYXP4pqU5" name="Page-1">
     <mxGraphModel dx="1350" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
         <mxCell id="GnammL_zW7rf_ZhL0HVK-8" value="&lt;font style=&quot;font-size: 15px&quot;&gt;数値はそのままにする&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="580" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GnammL_zW7rf_ZhL0HVK-13" value="&lt;font style=&quot;font-size: 13px&quot;&gt;配列に格納されている数値分繰り返す&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="GnammL_zW7rf_ZhL0HVK-13" value="&lt;div style=&quot;font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;配列に格納されて&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;いる数値分繰り返す&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;（ループ）&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="580" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="27N5OFfCC09W6TffT3J2-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1">
