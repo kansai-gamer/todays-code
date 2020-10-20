@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T03:07:37.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="PV_b0soZWGZIimRslaqr" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-20T03:08:57.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="0h0Dk7vjJgTvMp7Uqmhi" version="13.8.0" type="github">
   <diagram id="ygesi-L04HcfqPGvO-NY" name="Page-1">
     <mxGraphModel dx="1422" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,8 +24,8 @@
         </mxCell>
         <mxCell id="IYN9SZwqf2Xsz6iqshpF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="170" as="targetPoint" />
-            <mxPoint x="800" y="170" as="sourcePoint" />
+            <mxPoint x="350" y="140" as="targetPoint" />
+            <mxPoint x="800" y="140" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IYN9SZwqf2Xsz6iqshpF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" parent="1" source="IYN9SZwqf2Xsz6iqshpF-15" target="IYN9SZwqf2Xsz6iqshpF-17" edge="1">
@@ -63,7 +63,7 @@
         </mxCell>
         <mxCell id="JPZDZr30ks8KlQkCpKRz-4" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;verticalAlign=bottom;horizontal=0;fontStyle=0;align=right;labelBackgroundColor=#ffffff;rounded=0;endArrow=none;endFill=0;" parent="1" source="JPZDZr30ks8KlQkCpKRz-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="800" y="170" as="targetPoint" />
+            <mxPoint x="800" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JPZDZr30ks8KlQkCpKRz-1" value="&lt;div style=&quot;font-size: 13px&quot;&gt;配列に格納されて&lt;/div&gt;&lt;div style=&quot;font-size: 13px&quot;&gt;いる個数分ループ&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
