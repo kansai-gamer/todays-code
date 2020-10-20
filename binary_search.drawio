@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T01:18:14.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="Qcn7IUyTehZGKn8CqJ9V" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-20T01:54:59.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="hkDt42mF0rIPGLCb3600" version="13.8.0" type="github">
   <diagram id="ygesi-L04HcfqPGvO-NY" name="Page-1">
-    <mxGraphModel dx="657" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,19 +56,19 @@
         <mxCell id="IYN9SZwqf2Xsz6iqshpF-22" value="END" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="290" y="770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JPZDZr30ks8KlQkCpKRz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IYN9SZwqf2Xsz6iqshpF-24" target="JPZDZr30ks8KlQkCpKRz-1">
+        <mxCell id="JPZDZr30ks8KlQkCpKRz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IYN9SZwqf2Xsz6iqshpF-24" target="JPZDZr30ks8KlQkCpKRz-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IYN9SZwqf2Xsz6iqshpF-24" value="&lt;span style=&quot;font-size: 12px&quot;&gt;入れ替え&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="580" y="200" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="JPZDZr30ks8KlQkCpKRz-4" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;verticalAlign=bottom;horizontal=0;fontStyle=0;align=right;labelBackgroundColor=#ffffff;rounded=0;endArrow=none;endFill=0;" edge="1" parent="1" source="JPZDZr30ks8KlQkCpKRz-1">
+        <mxCell id="JPZDZr30ks8KlQkCpKRz-4" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;verticalAlign=bottom;horizontal=0;fontStyle=0;align=right;labelBackgroundColor=#ffffff;rounded=0;endArrow=none;endFill=0;" parent="1" source="JPZDZr30ks8KlQkCpKRz-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="800" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JPZDZr30ks8KlQkCpKRz-1" value="&lt;span style=&quot;font-size: 12px&quot;&gt;入れ替え&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="580" y="370" width="160" height="70" as="geometry" />
+        <mxCell id="JPZDZr30ks8KlQkCpKRz-1" value="&lt;div style=&quot;font-size: 13px&quot;&gt;配列に格納されて&lt;/div&gt;&lt;div style=&quot;font-size: 13px&quot;&gt;いる個数分ループ&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="570" y="370" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
