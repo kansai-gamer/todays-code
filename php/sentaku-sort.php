@@ -2,7 +2,6 @@
 $nums = [3, 9, 6, 1, 2];
 $count = count($nums);
 $roop = 0;
-$tmp = 0;
 
 
 while($roop < $count){
