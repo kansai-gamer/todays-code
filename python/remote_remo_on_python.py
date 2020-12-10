@@ -8,17 +8,27 @@ except ModuleNotFoundError:
     sys.exit(1)
 
 #↓を消して12行のapiのとこを api = NatureRemoAPI("testtoken")みたいに書き換えればおｋ
-token = input("トークン入力(入力面倒な人はソースコード書き換えて):")
-api = NatureRemoAPI(token)
+try:
 
-devices = api.get_devices()
-appliances = api.get_appliances()
+    token = input("トークン入力(入力面倒な人はソースコード書き換えて):")
+    api = NatureRemoAPI(token)
+
+    devices = api.get_devices()
+    appliances = api.get_appliances()
+except NatureRemoError as e:
+    print("エラーが発生しました。トークンが正しく入力されているか確認してください")
+
+    print("エラー内容")
+    print(e)
+
+
 
 print("何をしますか？")
 print("1: 温度表示")
 print("2: 登録家電表示")
 print("3: エアコンON")
 print("4: エアコンOFF")
+print("5: ライトON")
 
 while True:
     user_type = input("入力待機:")
@@ -31,7 +41,7 @@ while True:
         try:
             print("温度",devices[0].newest_events['te'].val)
         except KeyError:
-            print("取得出来ませんでした。")
+            print("温度を取得出来ませんでした。")
             break
 
         try:
@@ -40,7 +50,7 @@ while True:
             print("人感センサー", devices[0].newest_events['mo'].val)
             break
         except KeyError:
-            print("取得できませんでした。")
+            print("その他情報を取得できませんでした。（廉価版だと非対応です）")
             break
     elif number == 2:
         print("登録されている家電")
@@ -60,6 +70,14 @@ while True:
             break
     elif number == 4:
         api.update_aircon_settings(appliances[0].id, button="power-off")
+        print("完了")
+        break
+    elif number == 5:
+        api.send_light_infrared_signal(appliances[1].id, 'off')
+        print("完了")
+        break
+    elif number == 6:
+        api.send_light_infrared_signal(appliances[1].id, 'on')
         print("完了")
         break
     else:
