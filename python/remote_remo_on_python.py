@@ -1,41 +1,33 @@
+#学校でアドバイスもらったので修正
+import os
 import sys
 try:
     from remo import NatureRemoAPI
-except ModuleNotFoundError:
-    print("モジュールエラー")
-    print("pip install -U nature-remo")
-    print("このコマンドを実行し、必要なモジュールをインストールしてください")
+except ModuleNotFoundError as e:
+    print(f"モジュールエラー\npip install -U nature-remo\nこのコマンドを実行し、必要なモジュールをインストールしてください {e}")
     sys.exit(1)
 
-#↓を消して12行のapiのとこを api = NatureRemoAPI("testtoken")みたいに書き換えればおｋ
-try:
+if not os.path.isfile("nature_remo_token.txt"):
+    token = input("トークンを入力:")
+    with open("nature_remo_token.txt", mode="w", encoding="utf-8") as f:
+        f.write(token)
 
-    token = input("トークン入力(入力面倒な人はソースコード書き換えて):")
-    api = NatureRemoAPI(token)
+with open("nature_remo_token.txt", mode="r", encoding="utf-8") as f:
+    api = NatureRemoAPI(f.read())
 
-    devices = api.get_devices()
-    appliances = api.get_appliances()
-except NatureRemoError as e:
-    print("エラーが発生しました。トークンが正しく入力されているか確認してください")
+devices = api.get_devices()
+appliances = api.get_appliances()
 
-    print("エラー内容")
-    print(e)
-
-
+modes = ["温度表示", "登録家電表示", "エアコンON", "エアコンOFF", "ライトOFF", "ライトON"]
 
 print("何をしますか？")
-print("1: 温度表示")
-print("2: 登録家電表示")
-print("3: エアコンON")
-print("4: エアコンOFF")
-print("5: ライトON")
+for number, mode in enumerate(modes):
+    print(number + 1, ":", mode)
 
 while True:
     user_type = input("入力待機:")
-    try:
+    if user_type.isdecimal():
         number = int(user_type)
-    except ValueError:
-        print("正しい値を入力してください")
 
     if number == 1:
         try:
@@ -50,7 +42,7 @@ while True:
             print("人感センサー", devices[0].newest_events['mo'].val)
             break
         except KeyError:
-            print("その他情報を取得できませんでした。（廉価版だと非対応です）")
+            print("その他情報を取得できませんでした。（miniなどの廉価版だと非対応です）")
             break
     elif number == 2:
         print("登録されている家電")
@@ -83,3 +75,5 @@ while True:
     else:
         print("値の範囲外です。")
 
+
+#https://www.headboost.jp/python-if-not/
