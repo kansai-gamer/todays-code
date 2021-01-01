@@ -11,7 +11,7 @@
 + Bash (スクリプト)
 + HTML  
 + CSS  
-+ Javascript(予定)  
++ Javascript  
 
 <br>
 
@@ -38,4 +38,5 @@
 <br>
 
 ### 作ったもの
-+ [autospacekey](https://github.com/kansai-gamer/autospacekey)
++ [autospacekey](https://github.com/kansai-gamer/autospacekey)  
++ [GHM](https://github.com/kansai-gamer/GHM)  
